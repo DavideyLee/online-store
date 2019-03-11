@@ -103,8 +103,8 @@
                     page: this.curPage, //当前页码
                     top_category: this.top_category, //商品类型
                     ordering: this.ordering, //排序类型
-                    pricemin: this.pricemin, //价格最低 默认为‘’ 即为不选价格区间
-                    pricemax: this.pricemax // 价格最高 默认为‘’
+                    price_min: this.pricemin, //价格最低 默认为‘’ 即为不选价格区间
+                    price_max: this.pricemax // 价格最高 默认为‘’
                   }).then((response)=> {
 
                     this.listData = response.data.results;
